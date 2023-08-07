@@ -1,0 +1,3 @@
+chrome.clipboard
+  .readText()
+  .then((clipText) => (document.getElementById("outbox").innerText = clipText));
